@@ -14,16 +14,35 @@ fetch(corsproxy + url).then(function(resp){
 
 //window.onload = function(){
   document.getElementById('file').addEventListener('change', function(e){
-    console.log('hi')
+    //console.log('hi')
     var reader = new FileReader();
     reader.onload = function(e){
-      console.log(e.target.result)
+      //console.log(e.target.result)
       parse(e.target.result)
     }.bind(this);
     reader.readAsText(e.target.files[0])
   })
 
 //}
+  //
+
+  function getRandomPushes(n, pushes){
+    var indexes = []
+    while (indexes.length < n) {
+      var rand = Math.floor(Math.random() * (pushes.length + 1))
+      if (indexes.indexOf(rand) < 0){
+        indexes.push(rand)
+      }
+    }
+    console.log(indexes)
+
+    selectedPushes = []
+    for (var i = 0; i < indexes.length; i++){
+      selectedPushes[i] = pushes[indexes[i]];
+    }
+    console.log(selectedPushes)
+    return selectedPushes
+  }
 
 var parse = function(html){
   var doc = document.implementation.createHTMLDocument("example");
@@ -33,7 +52,10 @@ var parse = function(html){
   var board = metas[1].innerHTML
   var title = metas[2].innerHTML
   var timePublished = metas[3].innerHTML
-  var mainContent = doc.getElementById('main-content').childNodes[4].textContent
+  //var allContent = doc.getElementById('main-content').cloneNode(false).textContent;
+  var allContent = $('#main-content',doc).clone().children().remove().end().text();
+  console.log(doc.getElementById('main-content').childNodes)
+  //var allContent = doc.getElementById('main-content').textContent
   var commentsDom = doc.getElementsByClassName('push')
   var comments = []
   for (var i = 0; i < commentsDom.length; i++) {
@@ -44,16 +66,20 @@ var parse = function(html){
     comment['time'] = commentsDom[i].getElementsByClassName('push-ipdatetime')[0].textContent;
     comments.push(comment)
   }
+  /*
   console.log(author)
   console.log(board)
   console.log(title)
   console.log(timePublished)
-  console.log(mainContent)
+  console.log(allContent)
   console.log(comments)
+  */
 
-  template = "網友 " + author + " 在PTT上PO文表示:「" + mainContent.replace(/\n\s*\n/g, ",", "g").trim() + "」,引起網友熱議。\n\n"
-  for (var i = 0; i < 5; i++) {
-    template += "網友 " + comments[i]['user'] + " 認為" + comments[i]['content'] + ", "
+  template = "網友 " + author + " 在PTT上PO文表示:「" + allContent.replace(/\n\s*\n/g, ",", "g").trim() + "」,引起網友熱議。\n\n"
+  var pushCount = 5
+  var selectedComments = getRandomPushes(5, comments)
+  for (var i = 0; i < selectedComments.length; i++) {
+    template += "網友 " + selectedComments[i]['user'] + " 認為" + selectedComments[i]['content'] + ", "
   }
   console.log(template)
   document.getElementById("main_article").innerHTML = template.replace("\n", "<br>", "g")
