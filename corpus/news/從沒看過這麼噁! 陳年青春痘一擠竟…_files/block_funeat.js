@@ -1,0 +1,14 @@
+document.writeln('<div class="block100 single_news bottom_dot">');
+document.writeln('	<div class="block35">');
+document.writeln('		<a href="http://news.cts.com.tw/cts/general/201508/201508211651089.html" title="熟成牛排吃到飽 生魚片無限吃"><img src="http://news.cts.com.tw//photo/cts/201508/201508211651089_wm.jpg"  border="0" class="block_single_news_img" /></a>');
+document.writeln('	</div>');
+document.writeln('	<div class="block65">');
+document.writeln('		<div class="mainnewstitle">');
+document.writeln('		<a href="http://news.cts.com.tw/cts/general/201508/201508211651089.html">熟成牛排吃到飽 生魚片無限吃</a>');
+document.writeln('		</div>');
+document.writeln('		<div class="news_contentsdescribe">');
+document.writeln('		台灣人很喜歡吃吃到飽，現在有飯店業...');
+document.writeln('		<span class="more"><a href="http://news.cts.com.tw/cts/general/201508/201508211651089.html" title="熟成牛排吃到飽 生魚片無限吃">(詳全文)</a></span>');
+document.writeln('		</div>');
+document.writeln('	</div>');
+document.writeln('</div>');

@@ -1,0 +1,44 @@
+(function (window) {
+    if (typeof (window.Scupio) === 'undefined') {
+        window.Scupio = {};
+    }
+    window.Scupio.adtyperatio = {};
+    window.Scupio.adtyperatio['25'] = 1;
+    window.Scupio.adtyperatio['26'] = 0.4;
+    window.Scupio.adtyperatio['27'] = 0.4;
+    window.Scupio.channelratio = {};
+    window.Scupio.channelratio['8363'] = 0.5;
+    window.Scupio.channelratio['8376'] = 0.1;
+    window.Scupio.channelratio['7987'] = 0.05;
+    window.Scupio.channelratio['8045'] = 0.05;
+    window.Scupio.channelratio['8177'] = 0.05;
+    window.Scupio.channelratio['7903'] = 1;
+    window.Scupio.channelratio['8367'] = 1;
+    window.Scupio.channelratio['8075'] = 1;
+    window.Scupio.channelratio['8272'] = 1;
+    window.Scupio.channelratio['7886'] = 1;
+    window.Scupio.channelratio['7894'] = 0.5;
+    window.Scupio.channelratio['7925'] = 0.5;
+    window.Scupio.channelratio['7970'] = 0.5;
+    window.Scupio.channelratio['8006'] = 1;
+    window.Scupio.channelratio['8021'] = 0.5;
+    window.Scupio.channelratio['8033'] = 0.5;
+    window.Scupio.channelratio['7882'] = 0.5;
+    window.Scupio.channelratio['7914'] = 1;
+    window.Scupio.channelratio['8152'] = 1;
+    window.Scupio.channelratio['7936'] = 0.5;
+    window.Scupio.channelratio['7934'] = 0.5;
+    window.Scupio.channelratio['7940'] = 0.5;
+    window.Scupio.channelratio['7946'] = 0.5;
+    window.Scupio.channelratio['7948'] = 0.5;
+    window.Scupio.channelratio['7932'] = 0.5;
+    window.Scupio.channelratio['7920'] = 1;
+    window.Scupio.channelratio['8655'] = 1;
+    window.Scupio.channelratio['7981'] = 1;
+    window.Scupio.channelratio['8954'] = 1;
+    window.Scupio.channelratio['8053'] = 0.5;
+    window.Scupio.channelratio['7977'] = 0.05;
+    window.Scupio.channelratio['8111'] = 0.5;
+    window.Scupio.channelratio['8112'] = 0.5;
+    window.Scupio.channelratio['8113'] = 0.5;
+})(window);

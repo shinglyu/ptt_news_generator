@@ -1,0 +1,133 @@
+ 
+/*s: index widget */
+#indexWidget {
+	padding-top:10px;
+}
+#indexWidget div.body {
+	background:url(/img/sprite_index_arrow.png) no-repeat right 50px;
+	height:50px;
+	width:280px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#indexWidget .label {
+	width:60px;
+}
+#indexWidget .status {
+	font-weight:bold;
+}
+#indexWidget.up div.body {
+	background-position:right top;
+}
+#indexWidget.up table.HSI .val {
+	color:#4ec81f;
+}
+#indexWidget.down div.body {
+	background-position:right -53px;
+}
+#indexWidget.down table.HSI .val {
+	color:#ff0000;
+}
+#indexWidget tr.index td {
+	height:30px;
+}
+#indexWidget tr.index td.val {
+	font-family:Georgia, Arial, Helvetica, sans-serif;
+	font-size:35px;
+	line-height:24px;
+	vertical-align:text-top;
+}
+#indexWidget.down table.HSI .val.highlight {
+	/*background-color:#ff9d38;*/
+	color:#ff9d38;
+}
+#indexWidget.up table.HSI .val.highlight {
+	/*background-color:#ff9d38;*/
+	color:#ff9d38;
+}
+/*e: index widget */
+/*****m18 quotebox******/
+#m18box_container {
+	/*background:url(/img/bg_m18widget.png) no-repeat center;*/
+	height:135px;
+	margin-bottom:10px;
+}
+#m18_quote_box {
+	/*background:url(/img/m18_quotebox_bg.png) no-repeat;*/
+	width:300px;
+	height:70px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#m18_quote_box div {
+	padding:5px 15px 0 15px;
+}
+#m18_quote_box table {
+	width:100%;
+}
+#m18_quote_box a.btnM18 {
+	display:block;
+	height:26px;
+}
+#m18_quote_box a.btnM18:hover {
+	background:none;
+}
+.m18_textfield {
+	font-size:16px;	
+	margin-top:7px;
+	*margin-top:4px;
+	border:0px;
+	border:0px solid red;
+	height:22px;
+	width:150px;
+}
+.m18_submit{
+	margin:2px;
+	cursor: pointer;
+	width:110px;
+	height:26px;
+	border:0px solid red;
+}
+a.m18_qb_sponsor_btn {
+	float:right;
+	display:block;
+	width:140px;
+	height:26px;
+}
+a.m18_qb_sponsor_btn:hover{
+	background:none;
+}
+
+
+
+#markSixCTN #nextMarksix {
+	margin:0px 0px 5px 5px;
+}
+#markSixCTN {
+	background-color:#fff;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    border-radius:5px;
+	*border-bottom:1px solid #fff;
+	
+	border: 1px solid #ccc;
+}
+#markSixCTN .title {
+	padding:5px 5px 5px 10px;
+}
+#markSixCTN .boxContentCTN_bg {
+	padding:5px 10px 5px 10px;
+}
+#markSixCTN .numlist {
+	margin:5px 0 5px 0;
+}
+#markSixCTN img {
+	vertical-align:top;
+	margin:0 4px 0 0;
+}
+#indexWidget {
+	padding-top:5px;
+	*padding-top:2px;
+}
+ 

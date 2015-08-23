@@ -1,0 +1,385 @@
+
+
+
+#siteNav {
+	padding: 0 8px 0 14px;
+    width: 93px;
+	
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    border-radius:5px;
+	background-color:#fff;
+	font-size:12px;
+	margin-bottom:8px;
+}
+#siteNav a {
+	display:block;
+	padding:0 16px 0 17px;
+	height:26px;
+	line-height:25px;
+	background-image:url(http://on.cc/img/ic_bullet_grey.png);
+	background-repeat:no-repeat;
+	background-position:0 center;
+	color:#666666;
+}
+
+#starhall {
+	width:99px;
+	padding:0 8px 0 8px;
+	border:solid 1px #ccc;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    border-radius:5px;
+	background-color:#fff;
+	font-size:12px;
+	margin-bottom:8px;
+}
+
+#starhall a {
+	display:block;
+	height:26px;
+	line-height:25px;
+	background-position:0 center;
+}
+
+#siteChannel {
+	width:99px;
+	padding:0 8px 0 8px;
+	border:solid 1px #ccc;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    border-radius:5px;
+	background-color:#fff;
+	font-size:12px;
+	margin-bottom:8px;
+}
+#siteChannel a {
+	display:block;
+	height:26px;
+	line-height:25px;
+	background-position:0 center;
+}
+
+#opginfo {
+	width:95px;
+	padding:0 10px 0 10px;
+	border:solid 1px #ccc;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    border-radius:5px;
+	background-color:#fff;
+	font-size:12px;
+	margin-bottom:8px;
+}
+#opginfo a {
+	display:block;
+	height:26px;
+	line-height:25px;
+	background-position:0 center;
+	color:#666;
+}
+
+span.remark{
+	color:#ff6600;
+	/*
+	float: right;
+	*/
+}
+
+#moreMenu, #moreMenuUp {
+	border: solid 1px #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	width: 99px;
+	padding: 5px 8px;
+	background-color: #999;
+	text-align: center;
+	cursor:pointer;
+}
+#moreMenu #nav, #moreMenuUp #nav {
+width: 99px;
+	text-align: center;
+line-height: 20px;
+color: #fff;
+font-size: 12px;
+}
+
+#siteChannel li {
+	border-top:solid 1px #e6e6e6;
+}
+
+#siteChannel  li.first {
+	border-top:none;
+}
+#siteNav li {
+	border-top:solid 1px #e6e6e6;
+}
+#siteNav li.first {
+	border-top:none;
+}
+
+#siteNav a.ad, #siteNav a.opg, #siteNav a.charity {
+	background-image:url(http://on.cc/img/ic_arrow_grey.png);
+}
+
+
+#dateInfo , #weatherInfo  , #weatherSection{
+	margin-bottom:5px;
+}
+
+#weatherInfo li {
+	display: inline;
+}
+
+#languageInfo li {
+	display: inline;
+}
+
+/*
+#languageInfo li#tran_lang {
+	background-image:url(/img/v2/menu_lang_off.png);
+	width:23px;
+	height:23px;
+	
+}
+*/
+#languageInfo{
+	width:140px;
+	position:relative;
+	z-index:99999;
+	left:0;
+	top:0;
+}
+#languageInfo li.txt{
+	float:left;
+	border-radius:3px;
+	background-color:#777;
+	margin: 0px 6px 5px 0px;
+	padding:3px;
+	color:white;
+	font-size:14px;
+}
+#languageInfo #region_change{
+	margin-right: 0;
+	width: 55px;
+	padding-left: 7px;
+	background-color: #ff6600;
+}
+#languageInfo .btn{
+	cursor:pointer;
+	position:relative;
+}
+
+#languageInfo .disable.btn{
+	cursor:default;
+}
+
+#languageInfo #region_change #region_menu{
+	display:none;
+	float: right;
+	position: absolute;
+	background-color: #FF6600;
+	left: 70px;
+	width: 70px;
+	top: 0px;
+	text-align:center;
+	z-index: 1001;
+	border-radius:3px;
+}
+
+
+#languageInfo #region_change .region_menu_arrow {
+	margin-left:5px;
+}
+
+#languageInfo #region_change:hover{
+	width: 75px;
+}
+#languageInfo #region_change:hover #region_menu{
+	display:block;
+}
+
+#languageInfo #region_change.disable:hover{
+	width: 55px;
+}
+#languageInfo #region_change.disable:hover #region_menu{
+	display:none;
+}
+
+#languageInfo #region_menu li{
+	padding:3px;
+	display: block;
+}
+#languageInfo #region_menu li.item{
+	cursor:pointer;
+}
+
+#languageInfo .region_container{
+	z-index:30;
+	position: absolute;
+}
+#languageInfo a,#languageInfo a:link,#languageInfo a:hover,#languageInfo a:active{
+	color:white;
+}
+.gap{
+	*height:5px;
+	clear:both;
+}
+
+#siteChannel a.ontv {
+	background-image:url(http://on.cc/img/v2/ontv-icon.png);
+	background-repeat:no-repeat;
+	padding-left:47px;
+	color:#666666;
+	line-height:28px;
+}
+ 
+ a.starhall {
+	background-image:url(http://on.cc/img/v2/starhall.png);
+	background-repeat:no-repeat;
+	line-height:28px;
+}
+ a.wacky {
+	background-image:url(http://on.cc/img/v2/wacky_logo.png);
+	background-repeat:no-repeat;
+	line-height:28px;
+}
+
+ a.luxelife {
+	background-image:url(http://on.cc/img/v2/luxe_btn.png);
+	background-repeat:no-repeat;
+	line-height:28px;
+	margin-left: -6px;
+}
+ a.wedding {
+	background-image:url(http://on.cc/img/v2/wedding_btn.png);
+	background-repeat:no-repeat;
+	line-height:28px;
+	margin-left: -6px;
+}
+
+
+ a.baby {
+	background-image:url(http://on.cc/img/v2/baby_logo.png);
+	background-repeat:no-repeat;
+	line-height:28px;
+	margin-left: -6px;
+}
+
+ 
+a.odn:link, a.odn:visited {
+	color:#e90b80;
+}
+a.tsn:link, a.tsn:visited {
+	color:#f15a22;
+}
+a.mod:link, a.mod:visited {
+	color:#009E96;
+}
+a.idn:link, a.idn:visited {
+	color:#e83434;
+}
+a span.starhall_1 {
+	color:#ee332d;
+}
+
+a span.starhall_2 {
+	color:#15965e;
+}
+
+a span.starhall_3 {
+	color:#3481c4;
+}
+
+a span.char {
+	padding-left:6px;
+}
+a span.char2 {
+	padding-left:6px;
+}
+a span.remark {
+	color:#666666;
+}
+a.tv:link, a.tv:visited {
+	color:#f77013;
+}
+a.news:link, a.news:visited {
+	color:#005298;
+}
+a.special:link, a.special:visited {
+	color:#006BBB;
+}
+a.goodnews:link, a.goodnews:visited {
+	color:#ed145b;
+}
+a.money18:link, a.money18:visited {
+	color:#009888;
+}
+a.money18:link .m18_1,a.money18:visited .m18_1{
+	color:#ff6600;
+}
+a.football:link, a.football:visited {
+	color:#359302;
+}
+a.racing:link, a.racing:visited {
+	color:#093a63;
+}
+a.world:link, a.world:visited {
+	color:#e60515;
+}
+a.flash:link, a.flash:visited {
+	color:#000;
+}
+a.luxelife:link, a.luxelife:visited {
+	color:#ccb67a;
+}
+a.pandaa:link, a.pandaa:visited {
+	color:#ec097c;
+}
+a.property:link, a.property:visited {
+	color:#6e4b15;
+}
+a.shop:link, a.shop:visited {
+	color:#9b9586;
+}
+a.mobile:link, a.mobile:visited {
+	color:#333333;
+}
+a.classified:link, a.classified:visited {
+	color:#4a87bc;
+}
+a.classified:link, a.classified:visited {
+	color:#4a87bc;
+}
+a.ad:link, a.ad:visited, a.opg:link, a.opg:visited, a.charity:link, a.charity:visited{
+	color:#6e6e6e;
+	font-size:12px;
+}
+#region_menu .version_txt{
+	font-weight:bold;
+	font-size:12px;
+}
+
+/* .linking.root.title.circle.level1.hk_sport{
+	background: url('http://hk.on.cc/img/v2/sport_menu_btn.jpg');
+	height: 22px;
+	background-repeat: no-repeat;
+}
+.linking.root.title.circle.level1.hk_sport .line{
+	width:100%;
+	height:100%;
+}
+.linking.root.title.circle.level1.hk_sport .line .bullet{
+	display:none;
+}
+.linking.root.title.circle.level1.hk_sport .line .lang{
+	display:none;
+}
+
+ */

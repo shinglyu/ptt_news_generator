@@ -1,0 +1,30 @@
+#UHSearch #yucs-satray {
+	position: relative;
+	width: 100%;
+}
+
+
+#UHSearch .sa-tray-list-container .list-item-hover, #UHSearch .sa-tray-list-container li.list-item-hover {
+	background-color:#c6d7ff !important;
+	text-shadow: none;
+}
+
+#UHSearch .sa-sbx-container {
+	margin-top: -1px;
+	}
+
+#UHSearch .sa-tray-list-container li {
+padding: 0 .4em 0 .5em;
+font-size: 17px;
+height: 1.5em;
+padding-top: .1em;
+}
+
+#UHSearch .sa.lowlight .sa-tray-list-container li {
+font-weight: bold !important;
+color: #231f20 !important;
+}
+
+#UHSearchBox {
+	padding-left: 8px;
+}

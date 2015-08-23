@@ -1,0 +1,1 @@
+Tynt.sc({"ap":"\u539f\u6587\u7db2\u5740:","st":true,"w":"ETtodaynet","f":"ETtoday","domain":"ettoday.net"})

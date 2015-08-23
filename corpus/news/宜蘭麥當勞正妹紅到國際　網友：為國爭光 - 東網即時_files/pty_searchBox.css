@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+#pty_mini_search_frm {
+	font-size: 12px;
+	width:300px;
+	width : 301px \9; /*IE8 */
+	*width : 302px; /*IE7 */
+	_width: 300px; /*IE6 */		
+			
+	margin-top: 10px;
+	margin: 0 auto;									
+}
+		#pty_mini_search_frm .header_title {
+			background:url("/images/pty_head_title_mini.png") no-repeat scroll left top transparent;
+			height:40px;
+			width: 298px;
+			margin-bottom: 0;
+						
+		}
+		#searchForm_mini {
+			width: 295px;
+			margin-left: 10px;	
+		}
+		#pty_mini_search_frm .content {
+			
+			border-left:1px solid #D6D6D6;
+			border-right:1px solid #D6D6D6;
+			width: 298px;
+			height: 130px;
+
+			
+			margin-top: 0px;
+			margin-bottom: 0px;
+			
+			overflow:hidden;	
+			
+			background-color: #FFF;		
+		}
+		/* top: left */
+		#pty_mini_search_frm .header div {
+			background:url("/images/pty_top_bar.png") no-repeat scroll left top transparent;
+			height:7px;
+			width:9px;
+			margin-bottom: 0px;
+			
+			margin-bottom : -5px \9; /*IE8 */
+			*margin-bottom : -5px; /*IE7 */
+			_margin-bottom: -5px; /*IE6 */		
+		}
+		/* top: right */
+		#pty_mini_search_frm .header {
+			background:url("/images/pty_top_bar.png") no-repeat scroll right top transparent;
+			height:7px;		
+			height : 12px \9; /*IE8 */
+			*height : 12px; /*IE7 */
+			
+			width: 300px;
+			margin-bottom: 0px;
+
+			margin-bottom : -5px \9; /*IE8 */
+			*margin-bottom : -5px; /*IE7 */
+			_margin-bottom: -5px; /*IE6 */			 
+		}		
+		
+		/* bottom: right */
+		#pty_mini_search_frm  .footer {
+			background:url("/images/pty_bottom_bar.png") no-repeat scroll right bottom transparent;
+			height:5px;
+			margin-top: 0px;
+			margin-bottom:0px;
+			width: 300px;
+			
+			margin-top : 0px\9; /*IE8 */
+			*margin-top : 0px; /*IE7 */
+			_margin-top: -7px; /*IE6 */				
+		}
+
+		/* bottom: left */
+		#pty_mini_search_frm  .footer div {
+			margin-top: 0px;
+			margin-bottom:0px;
+			background:url("/images/pty_bottom_bar.png") no-repeat scroll left bottom transparent;
+			height:5px;
+			width:5px;
+			
+			margin-top : 0px\9; /*IE8 */
+			*margin-top : 0px; /*IE7 */
+			_margin-top: -7px; /*IE6 */					
+		}		
+		#btn_search img ,#btn_reset img, #btn_search_mini img {
+			border-style: none;	
+		}
+		#btn_reset:link,
+		#btn_reset:hover,		
+		#btn_reset:visited,		
+		#btn_search:link,
+		#btn_search:hover,		
+		#btn_search:visited,
+		#btn_search_mini:link,
+		#btn_search_mini:hover,		
+		#btn_search_mini:visited {
+			text-decoration: none !important;
+			background-color: transparent !important;
+		}
+		#btn_reset:link,
+		#btn_reset:hover,		
+		#btn_reset:visited,		
+		#btn_search:link,
+		#btn_search:hover,		
+		#btn_search:visited {
+			color: #F4EEE4;
+			background-color: transparent;
+		}
+		
+		#searchTbl td {
+			padding-left: 10px;	
+		}	
+		#searchTbl td.col1a {
+			width: 250px;
+		}
+		#searchTbl td.btn_tbl_ctn {
+			padding-left: 100px;	
+		}
+		#district, #estate {
+			width: 90%;			
+		}
+		#minsize, #maxsize, #minroom {
+			width: 55px;	
+		}
+		#minprice, #maxprice {
+			width: 105px;	
+		}
+		#district_area_mini {
+			width: 80px;
+		}
+		#searchTbl td table td{
+			padding-left: 0;	
+		}		
+		#pty_mini_search_frm .gohomeSponsorTxt {
+			color: #827349;
+		}

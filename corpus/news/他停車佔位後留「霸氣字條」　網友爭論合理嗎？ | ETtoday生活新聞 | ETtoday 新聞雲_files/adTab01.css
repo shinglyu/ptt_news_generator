@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* #adTab01頁籤iframe廣告===============================*/
+#adTab01{display:none;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom:15px; }
+
+#adTab01 .tab_title{ height:30px; position:relative;  }
+#adTab01 .tab_title li{ width:100px; height:29px; line-height:29px; float:left;  border:1px solid #ff290d ; border-right:none; background:#ff290d ; font-size:12px; text-align:center; color:#fff; position:relative; padding:0px 4px; cursor:pointer;
+border-radius:0px;}
+
+
+#adTab01 .tab_title li:nth-of-type(1){ border-radius:5px 0px 0px 0px;}
+#adTab01 .tab_title li:nth-last-of-type(1){ border-right:1px solid #ff290d ; border-radius:0px 5px 0px 0px;}
+
+#adTab01 .tab_title li.current{ background:#009649  ; border-color:#009649; color:#fff; }
+
+#adTab01 .tab_content{  background:#f2f2f2; padding:10px 10px 5px 10px; border-top:0px;}
+
+

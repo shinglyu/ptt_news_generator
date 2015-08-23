@@ -1,0 +1,1 @@
+/**/__twttr.receiveCount({"count":0,"url":"http:\/\/tw.on.cc\/tw\/bkn\/cnt\/news\/20150819\/bkntw-20150819120430032-0819_04011_001.html\/"});

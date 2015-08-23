@@ -1,0 +1,38 @@
+/*document.writeln('<div class="block100 bottom_dot">');
+document.writeln('<ul>');
+document.writeln('</ul>');
+document.writeln('</div>');
+*/
+
+document.writeln('<div class="block100 single_news">');
+document.writeln('	<div class="block35">');
+document.writeln('		<a href="http://shows.cts.com.tw/shows_prog/news/76/vod.html" title="華視新聞廣場"><img src="http://shows.cts.com.tw/shows_img/76_125.jpg"  border="0" class="block_single_news_img" /></a>');
+document.writeln('	</div>');
+document.writeln('	<div class="block65">');
+document.writeln('		<div class="mainnewstitle">');
+document.writeln('		<a href="http://shows.cts.com.tw/shows_prog/news/76/vod.html">華視新聞廣場</a>');
+document.writeln('		</div>');
+document.writeln('		<div class="news_contentsdescribe">');
+document.writeln('		厭惡了政治人物只拼口水，卻不幫小老百姓拼薪水嗎？望著直漲物價、凍漲的薪水年輕人只...');
+document.writeln('		</div>');
+document.writeln('	</div>');  
+document.writeln('	<div class="clrboth block100 newsprogtime">');
+document.writeln('		<img src="http://shows.cts.com.tw/images/clock_icon.gif" border="0" /> 週一至週五晚間10點');
+document.writeln('	</div>');              
+document.writeln('</div>');
+document.writeln('<div class="block100 single_news">');
+document.writeln('	<div class="block35">');
+document.writeln('		<a href="http://shows.cts.com.tw/shows_prog/news/21.html" title="華視新聞雜誌"><img src="http://shows.cts.com.tw/shows_img/21_125.jpg"  border="0" class="block_single_news_img" /></a>');
+document.writeln('	</div>');
+document.writeln('	<div class="block65">');
+document.writeln('		<div class="mainnewstitle">');
+document.writeln('		<a href="http://shows.cts.com.tw/shows_prog/news/21.html">華視新聞雜誌</a>');
+document.writeln('		</div>');
+document.writeln('		<div class="news_contentsdescribe">');
+document.writeln('		台灣社會多元多變，有許多值得深入探討的社會現象及趨勢，本節目秉持著深度報導的精神...');
+document.writeln('		</div>');
+document.writeln('	</div>');  
+document.writeln('	<div class="clrboth block100 newsprogtime">');
+document.writeln('		<img src="http://shows.cts.com.tw/images/clock_icon.gif" border="0" /> 每週六上午11:00-12:00');
+document.writeln('	</div>');              
+document.writeln('</div>');

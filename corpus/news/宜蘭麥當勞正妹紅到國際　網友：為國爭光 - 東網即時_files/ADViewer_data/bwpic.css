@@ -1,0 +1,44 @@
+﻿.av{visibility:hidden;position:absolute}
+.td{padding:0;}
+.tb9{border-collapse:collapse;border:0px;padding:0;height:250px;width:300px}
+.img9{width:300px;height:250px;border:0px}
+.logo9a{position:absolute;z-index:51;left:285px;top:230px;visibility:visible}
+.logo9b{position:absolute;z-index:51;left:200px;top:230px;visibility:hidden}
+.tb2{border-collapse:collapse;border:0px;padding:0;height:90px;width:728px}
+.img2{width:728px;height:90px;border:0px}
+.logo2a{position:absolute;z-index:51;left:713px;top:70px;visibility:visible}
+.logo2b{position:absolute;z-index:51;left:628px;top:70px;visibility:hidden}
+.tb20{border-collapse:collapse;border:0px;padding:0;height:600px;width:160px}
+.img20{width:160px;height:600px;border:0px}
+.logo20a{position:absolute;z-index:51;left:145px;top:580px;visibility:visible}
+.logo20b{position:absolute;z-index:51;left:60px;top:580px;visibility:hidden}
+.tb5{border-collapse:collapse;border:0px;padding:0;height:100px;width:300px}
+.tb320x100{border-collapse:collapse;border:0px;padding:0;height:100px;width:320px}
+.img5{width:300px;height:100px;border:0px}
+.logo5a{position:absolute;z-index:51;left:285px;top:80px;visibility:visible}
+.logo5b{position:absolute;z-index:51;left:200px;top:80px;visibility:hidden}
+.gray_h210 {
+    background-image: url(../images/bg_gray_1.gif);	
+	background-position: center;
+	border: 1px solid #bbbbbb;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.pic_frame {
+	background-position: center;
+	border: 1px solid #bbbbbb;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.mask{
+    z-index:9999;
+    position:absolute;
+    opacity:0.01;
+    filter:alpha(opacity=1);
+    background-color:#ffffff;
+}
+
+
+

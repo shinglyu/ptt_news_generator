@@ -1,0 +1,1 @@
+crtg_content = ''; (function(){document.cookie = 'crtg_rta=' + escape(crtg_content) + '; path=/; expires=Mon, 21 Sep 2015 08:16:53 GMT; domain=ettoday.net';})();

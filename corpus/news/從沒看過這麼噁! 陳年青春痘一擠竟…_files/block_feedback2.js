@@ -1,0 +1,2 @@
+document.writeln('<div class="QAtitle"><img src="http://news.cts.com.tw/images/q_icon.gif" align="absmiddle"><a href="http://www.cts.com.tw/faq.php">可以麻煩將影片上傳完成嘛!?例如像是:懷...</a></div>');
+document.writeln('<div class="QAtitle"><img src="http://news.cts.com.tw/images/a_icon.gif" align="absmiddle"><a href="http://www.cts.com.tw/faq.php">你好,本公司懷玉公主全集80集，已全數在...</a></div>');

@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*header===============================*/
+.ettop_box { display:none;}
+.header_box { display:none; }
+
+.subjcet_news h2.title { font-family:"微軟正黑體", "新細明體", Arial, Helvetica, sans-serif;font-size:50px; line-height:1.5;}
+.subjcet_news .foreword { display:none;}
+.logo_print { display:block!important}
+
+/*container===============================*/
+.container .r1 .c1 { width:100%;}
+.container .r1 .c2 { display: none;}
+.subjcet_news .story{ font-size:20px; line-height:1.5;}
+
+/*footer===============================*/
+.footer_box, #footer-garden, .footer { display:none;}
+
+/*內容區塊===============================*/
+
+.menu_bread_crumb { display:none;}
+.ad_c1 { display:none;}
+.gplus { display:none;}
+.operate_1 { display:none;}
+.menu_txt_3 { display:none;}/*次選單*/
+.menu_txt_4 { display:none;}/*次選單*/
+.foreword {display:none}/*點評*/
+.fb_fans {display:none}
+#commentTab {display:none}
+
+#related-news{ display:none;}
+#hot-news-box { display:none;}
+#recommended-photo-album { display:none;}
+#fbComments { display:none;}
+#social-share-bar { display:none;}
+.social_share { display:none;}
+#prev-next-news { display:none;}
+#news-keywords { display:none;}
+.editor-choice { display:none;}
+.recom-events  { display:none;}
+.menu_page { display:none;}
+.footer_nav { display:none;}
+.inserted-text  { display:none;}
+.epaper-subscribe { display:none;}
+
+/*廣告*/
+.top-sky {display:none}/*轟天雷*/
+.adW04 {display:none}/*左側大浮水印*/
+.float_ad {display:none}/*浮水印*/
+#text-ad-1, #text-ad-2 {display:none}/*文字廣告*/
+#asa-ad-1 {display:none}/*ASA文字廣告*/
+.adW01, .adW02  {display:none}/*浮水印廣告*/
+#all_news_text1, #all_news_text2, #text-ad-3, #text-ad-4  {display:none}
+.yahoo-keyword {display:none}
+#news-end-ad-box {display:none}/*留言板下方廣告*/
+#hot-tag-sidebar {display:none}/*發燒話題*/
+#my_note_1 {display:none}/*SlideNote*/
+.banner_970 {display:none}/*超級大橫幅*/
+#hs_bottom {display:none}/*ysm 置底熱字廣告*/
+#adTab01 {display:none}/*房產頁籤廣告*/
+#ads-relative {display:none}/*adsense 您可能會有興趣*/
+.c1 .block iframe {display:none}/*讀者迴響上方雙巨幅*/
+
+/*not for Print */
+.no-print {display:none}
+.back-to-top img {display:none}/*回到頂端*/
