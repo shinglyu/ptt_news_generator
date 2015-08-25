@@ -4,20 +4,48 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title></title>
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-theme.min.css" type="text/css" media="all" />
   </head>
   <body>
-    <div className="fileSelector">
-      <input type="file" id="file" onchange="handleFiles(this.files)">
-    </div>
-    <br>
-    <div id="main_article">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>PTT 新聞產生器</h1>
+          <div className="fileSelector" class="well">
+            <label for="file">請上傳<a href="https://www.ptt.cc/hotboard.html">www.ptt.cc</a>下載的文章 html 檔</label>
+            <input type="file" id="file" onchange="handleFiles(this.files)">
+          </div>
+        </div>
+        <hr/>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>範例</h3>
+          <ul>
+            <li><a id="example-1" class="active">[問卦] 沒有理組會怎樣的八卦</a></li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <div id="main_article">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr/>
+          <p>by <a href="https://shinglyu.github.io">Shing Lyu</a></p>
+        </div>
+      </div>
     </div>
     <!--
     <iframe id="content_loader" src="https://www.ptt.cc/bbs/sex/M.1433900900.A.F92.html"/>
-      
       -->
   </body>
-  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
+  <script src="./bower_components/bootstrap/dist/css/bootstrap-theme.min.css"></script>
+  <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="examples.js" type="text/javascript" charset="utf-8"></script>
   <script src="generator.js" type="text/javascript" charset="utf-8"></script>
 </html>

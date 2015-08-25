@@ -13,36 +13,36 @@ fetch(corsproxy + url).then(function(resp){
 */
 
 //window.onload = function(){
-  document.getElementById('file').addEventListener('change', function(e){
-    //console.log('hi')
-    var reader = new FileReader();
-    reader.onload = function(e){
-      //console.log(e.target.result)
-      parse(e.target.result)
-    }.bind(this);
-    reader.readAsText(e.target.files[0])
-  })
+document.getElementById('file').addEventListener('change', function(e){
+  //console.log('hi')
+  var reader = new FileReader();
+  reader.onload = function(e){
+    //console.log(e.target.result)
+    parse(e.target.result)
+  }.bind(this);
+  reader.readAsText(e.target.files[0])
+})
 
 //}
   //
 
-  function getRandomPushes(n, pushes){
-    var indexes = []
-    while (indexes.length < n) {
-      var rand = Math.floor(Math.random() * (pushes.length + 1))
-      if (indexes.indexOf(rand) < 0){
-        indexes.push(rand)
-      }
+function getRandomPushes(n, pushes){
+  var indexes = []
+  while (indexes.length < n) {
+    var rand = Math.floor(Math.random() * (pushes.length))
+    if (indexes.indexOf(rand) < 0){
+      indexes.push(rand)
     }
-    console.log(indexes)
-
-    selectedPushes = []
-    for (var i = 0; i < indexes.length; i++){
-      selectedPushes[i] = pushes[indexes[i]];
-    }
-    console.log(selectedPushes)
-    return selectedPushes
   }
+  console.log(indexes)
+
+  selectedPushes = []
+  for (var i = 0; i < indexes.length; i++){
+    selectedPushes[i] = pushes[indexes[i]];
+  }
+  console.log(selectedPushes)
+  return selectedPushes
+}
 
 var parse = function(html){
   var doc = document.implementation.createHTMLDocument("example");
@@ -75,12 +75,18 @@ var parse = function(html){
   console.log(comments)
   */
 
-  template = "網友 " + author + " 在PTT上PO文表示:「" + allContent.replace(/\n\s*\n/g, ",", "g").trim() + "」,引起網友熱議。\n\n"
+  template = ""
+  
+  template += "<h2>網路瘋傳：「 " + title+ "」，網友都驚呆了！</h2>"
+  template += "<footnote>本報訊 | " + (new Date()).toLocaleString() + "</footnote><br/><br/>"
+  template += "網友 " + author + " 在PTT上PO文表示:「" + allContent.replace(/\n\s*/g, ",").trim() + "」,引起網友熱議。\n\n"
   var pushCount = 5
   var selectedComments = getRandomPushes(5, comments)
   for (var i = 0; i < selectedComments.length; i++) {
     template += "網友 " + selectedComments[i]['user'] + " 認為" + selectedComments[i]['content'] + ", "
   }
   console.log(template)
-  document.getElementById("main_article").innerHTML = template.replace("\n", "<br>", "g")
+  document.getElementById("main_article").innerHTML = template.replace(/\n/g, "<br>", "g")
 }
+
+parse(examples[0])

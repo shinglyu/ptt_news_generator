@@ -1,0 +1,21 @@
+{
+  "name": "ptt_news_generator",
+  "version": "0.0.1",
+  "homepage": "https://github.com/shinglyu/ptt_news_generator",
+  "authors": [
+    "Shing Lyu <shing.lyu@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}
