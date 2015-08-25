@@ -13,7 +13,7 @@
         <div class="col-md-12">
           <h1>PTT 新聞產生器</h1>
           <div className="fileSelector" class="well">
-            <label for="file">請上傳<a href="https://www.ptt.cc/hotboard.html">www.ptt.cc</a>下載的文章 html 檔</label>
+            <label for="file">請上傳從 <a href="https://www.ptt.cc/hotboard.html" target="_blank">www.ptt.cc</a> 下載的文章 html 檔 (右鍵 > 頁面另存為... > 純 HTML)</label>
             <input type="file" id="file" onchange="handleFiles(this.files)">
           </div>
         </div>
@@ -23,6 +23,7 @@
         <div class="col-md-4">
           <h3>範例</h3>
           <ul>
+            <li><a id="example-0" class="active">[問卦] 沒有理組會怎樣的八卦</a></li>
             <li><a id="example-1" class="active">[問卦] 沒有理組會怎樣的八卦</a></li>
           </ul>
         </div>

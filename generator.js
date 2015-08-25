@@ -52,6 +52,7 @@ var parse = function(html){
   var board = metas[1].innerHTML
   var title = metas[2].innerHTML
   var timePublished = metas[3].innerHTML
+  var originalLink= doc.getElementsByClassName('fb-like')[0].dataset['href']
   //var allContent = doc.getElementById('main-content').cloneNode(false).textContent;
   var allContent = $('#main-content',doc).clone().children().remove().end().text();
   console.log(doc.getElementById('main-content').childNodes)
@@ -85,6 +86,8 @@ var parse = function(html){
   for (var i = 0; i < selectedComments.length; i++) {
     template += "網友 " + selectedComments[i]['user'] + " 認為" + selectedComments[i]['content'] + ", "
   }
+  template += "<br/><br/>"
+  template += "原文出處： <a href='" + originalLink + "'>" + originalLink + "</a>";
   console.log(template)
   document.getElementById("main_article").innerHTML = template.replace(/\n/g, "<br>", "g")
 }
