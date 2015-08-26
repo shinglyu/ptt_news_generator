@@ -15,6 +15,10 @@
           <h1 style="display: inline-block;">PTT 新聞產生器</h1>
           <p style="display: inline-block;">by <a href="https://shinglyu.github.io">呂行</a></p>
           <div className="fileSelector" class="well">
+            <label for="dispcc">請貼上 <a href="http://disp.cc" target="_blank">disp.cc</a> 文章連結</label>
+            <input type="text" id="text" placeholder="e.g. http://disp.cc/b/163-8UHm">
+            <button id="submit-disp">送出</button>
+            <p> -- OR -- </p> 
             <label for="file">請上傳從 <a href="https://www.ptt.cc/hotboard.html" target="_blank">www.ptt.cc</a> 下載的文章 html 檔 (右鍵 > 頁面另存為... > 純 HTML)</label>
             <input type="file" id="file" onchange="handleFiles(this.files)">
           </div>
