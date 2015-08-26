@@ -108,13 +108,14 @@ var parse = function(html){
   var pushCount = 5
   
   for (var n = 0; n < 2; n++) {
-    var selectedComments = getRandomPushes(4, comments)
+    var selectedComments = getRandomPushes(5, comments)
     template += "<p>"
-    for (var i = 0; i < selectedComments.length; i++) {
+    for (var i = 0; i < selectedComments.length - 1; i++) {
       var pgen = new PushGenerator(selectedComments[i])
       //template += "網友 " + selectedComments[i]['user'] + " 認為" + selectedComments[i]['content'] + ", "
       template += pgen.generate() + "，"
     }
+    var pgen = new PushGenerator(selectedComments[selectedComments.length - 1])
     template += pgen.generate() + "。"
 
     template += "</p>"
